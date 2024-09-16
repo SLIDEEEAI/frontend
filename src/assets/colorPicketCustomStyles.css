@@ -1,0 +1,24 @@
+.select-color-block .vc-saturation {
+    height: 139px;
+}
+.select-color-block .vc-fk-colorPicker__header span{
+    filter: brightness(3);
+}
+.select-color-block .vc-colorpicker--container{
+    background: var(--color-background-soft);
+}
+.select-color-block .vc-display .vc-color-input input,
+.select-color-block .vc-display .vc-current-color .color-cube{
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    color: #FFFFFF;
+}
+
+.text-color-context .vc-colorpicker{
+    box-shadow: none;
+}
+ 
+.text-color-context .vc-color-input{
+    translate: 0 -45%;
+}

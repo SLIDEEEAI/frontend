@@ -1,0 +1,184 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --color-1: #6F6379;
+  --color-2: #464646;
+  --color-3: #23222D;
+  --color-4: #D9D9D9;
+  --color-5: #6C6C6C;
+  --color-6: #CFCFCF;
+  --color-7: #8D8D8D;
+
+  --c-accent: #CF36A3;
+  --c-accent-soft: #CF36A3;
+  --c-accent-op: #CF36A350;
+  --c-accent-light: #FFA7E6;
+  --c-accent-light-soft: #FFA7E6;
+
+  --c-gradient-1: #C82EAF;
+  --c-gradient-2: #F7625B;
+
+  --noto-f: 'Noto Sans', sans-serif;
+  --roboto-f: 'Roboto Mono', monospace;
+  --rubik-f: 'Rubik', sans-serif;
+
+  --c-white: #FFFFFF;
+  --c-white-soft: #FDFDFD;
+  --c-white-mute: #F2F2F2;
+
+  --c-bg-dark: #1A1D1D;
+  --c-bg-dark-soft: #222525;
+  --c-bg-dark-mute: #373839;
+  --c-bg-dark-op: #222525c9;
+  --c-bg-dark-extra: #121212;
+
+  --c-text-white: #fff;
+  --c-text-white-dim: #D2D2D2;
+  --c-text-white-soft: #A5A5A5;
+  --c-text-grey: #7B7B7B;
+  --c-text-grey-dim: #535353;
+  --c-text-op: #686868;
+  --c-text-accent-1: #A570FA;
+
+  --c-divider-light-1: #6F6379;
+
+  --c-btn-dark: #514C4C;
+  --c-btn-dark-mute: #565151c4;
+
+  --presentation-ratio: 16/9;
+}
+
+:root {
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+
+/* semantic color variables for this project */
+:root {
+  
+  --color-success: #76CA66;
+  --color-warning: #FBC756;
+  --color-error: #FF2828;
+  --color-information: #2D91FF;
+
+  --color-background: var(--c-bg-dark);
+  --color-background-soft: var(--c-bg-dark-soft);
+  --color-background-mute: var(--c-bg-dark-mute);
+  --color-background-op: var(--c-bg-dark-op);
+  --color-bg-dark-extra: var(--c-bg-dark-extra);
+
+  --color-accent: var(--c-accent);
+  --color-accent-light: var(--c-accent-light);
+  --color-accent-op:var(--c-accent-op);
+  
+  --color-border: var(--c-accent);
+  --color-border-hover: var(--c-accent);
+  
+  --color-heading: var(--c-accent);
+  --color-text: var(--c-text-white);
+  --color-text-dim: var(--c-text-white-dim);
+  --color-text-soft: var(--c-text-white-soft);
+  --color-text-op: var(--c-text-op);
+  --color-link: var(--c-accent);
+  --color-text-grey: var(--c-text-grey);
+  --color-text-grey-dim: var(--c-text-grey-dim);
+  
+  --color-btn: var(--c-accent);
+  --color-btn-hover: var(--c-accent-soft);
+  
+  --gradient-main: linear-gradient(90deg, var(--c-gradient-1) 0%, var(--c-gradient-2) 100%);
+  --gradient-reverse: linear-gradient(90deg, var(--c-gradient-2) 0%, var(--c-gradient-1) 100%);
+
+  --section-gap: 160px;
+
+  --radius-xl: 40px;
+  --radius-md: 20px;
+  --radius-common: 15px;
+  --radius-sm: 10px;
+  --radius-xsm: 7px;
+
+  --context-shadow: 0px 2px 4px #00000050;
+
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+} */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  transition: all 0.2s ease-in;
+}
+
+html, body{
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: normal;
+  font-family: var(--noto-f);
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button{
+  cursor: pointer;
+  background: var(--color-btn);
+  border: 0;
+  color: #fff;
+  font-family: var(--noto-f);
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+/* button:hover{
+  background: var(--color-btn-hover);
+} */
+button, input, textarea, select{
+  /* font-family: var(--rubik-f); */
+  font-size: 20px;
+  line-height: normal;
+}
+a{
+  /* color: var(--color-link); */
+  text-decoration: none;
+}

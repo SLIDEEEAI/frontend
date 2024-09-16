@@ -1,0 +1,21 @@
+Эти поля должны быть не в свойстве json а в корневом объекте презентации, на одном уровне с  "id" и "author":
+
+        "group": null,
+        "favourite": false,
+        "removed": false,
+        "date_created": 1708312345,
+        "date_edited": 1708312345,
+        "len_slides": 1,
+
+у каждого слайда должно быть поле 
+        "theme" : {
+                "background_color" : null               // rgb параметры (максимум 3)
+                "background_img" : null                 // пути к изображениям заднего фона слайдов (максимум 3)
+        }
+
+у каждого контент-блока должно быть свойство
+        "background_color" : null
+
+у текстбокса нет свойств
+        "italic" : false
+        "align" : null

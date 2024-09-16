@@ -1,0 +1,191 @@
+{
+    "id": 112,                           // id презентации
+    "author" : 25,                       // id автора
+    "group" : null,                      // id группы
+    "title" : "Искуственный интеллект",  // Название презентации
+    "favourite" : true,                  // добавлен ли в избранное
+    "removed" : false,                   // добавлен ли в избранное
+    "date_created" : 1707550979,         // время создания в формате timestamp
+    "date_edited" : 1707637379,          // время посл. редактирования в формате timestamp
+    "theme" : null,                      // id темы
+    "slides" : 2,
+    "json" : {                          // сам json-объект презентации
+            "title" : "Искуственный интеллект",                 // Название презентации
+            "theme" : {                                         // стили презенатции
+                "background_color" : [255, 100, 60],            // rgb параметры (максимум 3)
+                "font_info": {                                  // стили текста на слайдах
+                    "titles" : {                                // стили заголовков
+                        "name" : 'Calibri',                     // название шрифта
+                        "size" : 44,
+                        "bold" : true,
+                        "italic" : false
+                    },
+                    "main_texts" : {                            // стили основного текста
+                        "name" : 'Calibri',                     // название шрифта
+                        "size" : 28,
+                        "bold" : false,
+                        "italic" : false
+                    }
+                }
+            },
+            "slides": [                                         // слайды
+                {
+                    "index": 0,
+                    "title": 'Искуственный интеллект',
+                    "theme" : {
+                        "background_color" : null,                       // rgb параметры (максимум 3)
+                        "background_img" : 'https://.../4398749320.png', // пути к изображениям заднего фона слайдов (максимум 3)
+                    }
+                    "content" : {
+                        "text_boxes" : [
+                            {
+                                "left" : '60px',
+                                "top" : '40px',
+                                "width" : '1320px',
+                                "height" : '180px',
+                                "background_color" : null,
+
+                                "type" : 'h1'
+                                "text": 'Искуственный интеллект'
+                                "font_size": 44
+                                "bold": true
+                                "italic" : false
+                                'align' : 'center'
+                            },
+                            {
+                                "left" : '60px',
+                                "top" : '300px',
+                                "width" : '1320px',
+                                "height" : '100px',
+                                "background_color" : null,
+
+                                "type" : 'h2'
+                                "text": 'автор: Иван Иванов'
+                                "font_size": 28
+                                "bold": false
+                                "italic" : false
+                                'align' : 'center'
+                            },
+                        ],
+                        "pictures" : [],
+                        "tables" : [],
+                        "figures" : [],
+                        "graphics" : []
+                    }
+                },
+                {
+                    "index": 1
+                    "title": 'Роль ИИ в жизни современного человека'
+                    "theme" : {
+                        "background_color" : [100,100,100]               // rgb параметры (максимум 3)
+                        "background_img" : null                          // пути к изображениям заднего фона слайдов (максимум 3)
+                    }
+                    "content" : {
+                        "text_boxes" : [
+                            {
+                                "left" : '60px',
+                                "top" : '40px',
+                                "width" : '300px',
+                                "height" : '180px',
+                                "background_color" : null,
+
+                                "type" : 'h1'
+                                "text": 'Роль ИИ в жизни современного человека'
+                                "font_size": 44
+                                "bold": true
+                                "italic" : false
+                                'align' : null
+                            },
+                            {
+                                "left" : '60px',
+                                "top" : '300px',
+                                "width" : '300px',
+                                "height" : '300px',
+                                "background_color" : null,
+
+                                "type" : 'p'
+                                "text": 'ГЛАВНЫЙ ТЕСКТ ДЛЯ СЛАЙДА...'
+                                "font_size": 28
+                                "bold": false
+                                "italic" : false
+                                'align' : 'center'
+                            },
+                        ],
+                        "pictures" : [
+                            {
+                                "left" : '60px',
+                                "top" : '40px',
+                                "width" : '400px',
+                                "height" : '600px',
+                                "background_color" : null,
+
+                                "url": 'https://.../9877749320.png'
+                            }
+                        ],
+                        "tables" : [],
+                        "figures" : [],
+                        "graphics" : []
+                    }
+                },
+                {
+                    "index": 1
+                    "title": 'Роль ИИ в жизни современного человека'
+                    "theme" : {
+                        "background_color" : [100,100,100]               // rgb параметры (максимум 3)
+                        "background_img" : null                          // пути к изображениям заднего фона слайдов (максимум 3)
+                    }
+                    "content" : {
+                        "text_boxes" : [
+                            {
+                                "left" : '60px',
+                                "top" : '40px',
+                                "width" : '1320px',
+                                "height" : '100px',
+                                "background_color" : null,
+
+                                "type" : 'h2'
+                                "text": 'Какой-то заголовок для таблицы'
+                                "font_size": 32
+                                "bold": true
+                                "italic" : true
+                                'align' : 'center'
+                            }
+                        ],
+                        "pictures" : [],
+                        "tables" : [
+                            "left" : '120px',
+                            "top" : '40px',
+                            "width" : '1320px',
+                            "height" : '800px',
+                            "background_color" : null,
+
+                            "columns" : [                   // названия колонок
+                                'название колонки 1',
+                                'название колонки 2',
+                                'название колонки 3',
+                            ]
+                            "rows" : [                      // массив строк
+                                [
+                                    '1 строка Колонка 1',
+                                    '1 строка Колонка 2',
+                                    '1 строка Колонка 3'
+                                ],
+                                [
+                                    '2 строка Колонка 1',
+                                    '2 строка Колонка 2',
+                                    '2 строка Колонка 3'
+                                ],
+                                [
+                                    '3 строка Колонка 1',
+                                    '3 строка Колонка 2',
+                                    '3 строка Колонка 3'
+                                ],
+                            ] 
+                        ],
+                        "figures" : [],
+                        "graphics" : []
+                    }
+                }
+            ]
+    }
+}

@@ -1,0 +1,1 @@
+export default 'https://slideeeeeee.ru/api/v1/';

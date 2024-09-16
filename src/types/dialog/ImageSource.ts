@@ -1,0 +1,1 @@
+export type ImageSource = 'DALLE-2' | 'DALLE-3' | 'internet'
