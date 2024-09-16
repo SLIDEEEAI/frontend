@@ -1,0 +1,1 @@
+import{_ as s,e as t,f as o,g as e}from"./index-0c1004f1.js";const c={},_={class:"shared-view"},n=e("h1",null,"shared-view",-1),a=e("h1",null,"shared-view",-1),r=e("h1",null,"shared-view",-1),d=[n,a,r];function h(i,l){return t(),o("div",_,d)}const u=s(c,[["render",h]]);export{u as default};

@@ -1,0 +1,1 @@
+import{_ as s,e as c,f as t,g as e}from"./index-0c1004f1.js";const o={},i={class:"slideee-search-view"},_=e("h1",null,"slideee-search-view",-1),n=e("h1",null,"slideee-search-view",-1),a=e("h1",null,"slideee-search-view",-1),r=[_,n,a];function l(d,h){return c(),t("div",i,r)}const u=s(o,[["render",l]]);export{u as default};

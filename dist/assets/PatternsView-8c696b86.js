@@ -1,0 +1,1 @@
+import{_ as t,e as s,f as n,g as e}from"./index-0c1004f1.js";const o={},c={class:"patterns-view"},_=e("h1",null,"patterns-view",-1),a=e("h1",null,"patterns-view",-1),r=e("h1",null,"patterns-view",-1),i=[_,a,r];function l(d,h){return s(),n("div",c,i)}const f=t(o,[["render",l]]);export{f as default};
