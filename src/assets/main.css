@@ -1,0 +1,126 @@
+@import './base.css';
+@import './UI.css';
+
+
+:root{
+  /* colors */
+  --bg: #222525;
+  --light-black: #282B2B;
+
+  --dark: #1A1D1D;
+  --dark-op: #0f11115c;
+  
+  --field-bg: #1E2121;
+
+  --grey-text: #A4A3A3;
+
+  --pink1: #FF00B1;
+  --pink2: #E04887;
+  --pink3: #E75177;
+
+  --gradient_color1: #7d00ff;
+  --gradient_color2: #9517da; 
+  --gradient_color3: #c52bb8; 
+  --gradient_color4: #fa615e; 
+  --gradient_color5: #e54294; 
+  --gradient_color6: #ab29bd;
+
+  --gradient_theme_color1: #c52bb8; 
+  --gradient_theme_color2: #fa615e; 
+  /* colors */
+
+  /* border-radius */
+  --border-radius-xl: 35px;
+  --border-radius-lg: 30px;
+  --border-radius-md: 25px;
+  --border-radius-sm: 20px;
+  --border-radius-xm: 15px;
+  --border-radius-xxm: 11px;
+  /* border-radius */
+
+}
+
+#app {
+  font-weight: normal;
+}
+
+/* *{ outline: 1px solid #00b9f68d; } */
+
+.outline *{ outline: 1px solid #00b9f68d; } 
+
+.app-container{
+  margin: 0 auto;
+  /* padding: 0 30px; */
+}
+
+.container{
+  width: 100%;
+  max-width: 1400px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: 0 auto;
+}
+
+.color-light{
+  color: var(--color-text-light);
+}
+.color-accent{
+  color: var(--color-accent);
+}
+
+.color-bg{
+  background: var(--color-background);
+}
+.transparent{
+  background: transparent;
+}
+
+.w-100{
+  width: 100%;
+}
+.h-100{
+  height: 100%;
+}
+
+.text-gradient{
+  background: var(--color-accent);
+  background: var(--gradient-main);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.theme-gradient{
+  background: var(--gradient-main) !important;
+  transition: all 0.2s ease-out !important;
+}
+.theme-gradient.reverse{
+  background: var(--gradient-reverse) !important;
+}
+
+button.theme-gradient:hover,
+.theme-gradient.hoverable:hover{
+  filter: hue-rotate(-20deg);
+}
+
+:root{
+  --thumb-bg: #1A1D1D;
+}
+
+
+/* Для элементов с прокруткой */
+/* Webkit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 4px; /* Ширина скроллбара */
+}
+
+/* Webkit thumb */
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-accent-light); /* Цвет thumb */
+  border-radius: 10px; /* Закругленные углы */
+}
+
+/* Webkit track */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Прозрачный трек */
+}
+
